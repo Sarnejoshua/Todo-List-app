@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+        body{
+            background-image: url(bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="stylecss.css">
+  
+</head>
+<body>
+  <div id="container">
+    <h2>To-Do List<img src="icon.png"></h2>
+    <h3>"There are no secrets to success. It is the result of preparation, hard work, and learning from failure." - Colin Powell, general</h3>
+    <input type="text" id="taskInput" placeholder="Add a new task...">
+    <h3></h3>
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="javascript.js"></script>  
+</body>
+</html>
